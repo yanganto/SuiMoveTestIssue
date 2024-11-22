@@ -4,7 +4,7 @@ use demo2::demo2::{init, Cap};
 
 
 #[test]
-fun in_module_test() {
+fun in_test_package() {
     use sui::test_scenario;
     use std::debug;
 
