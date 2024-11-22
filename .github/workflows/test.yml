@@ -1,0 +1,22 @@
+name: Test
+
+on:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: cachix/install-nix-action@v30
+        with:
+          nix_path: nixpkgs=channel:nixos-unstable
+
+      - name: Run test in demo1
+        working-directory: demo1
+        run: nix develop -c sui-move test
+
+      - name: Run test in demo2
+        working-directory: demo2
+        run: nix develop -c sui-move test
