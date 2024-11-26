@@ -1,9 +1,11 @@
 # SuiMoveTestIssue
 
-This repo demonstrates the 2 restrictions of test module for sui.
+This repo demonstrates the 2 restrictions of test module for sui, the original issue is [20389@sui](https://github.com/MystenLabs/sui/issues/20389)
 
 - Test scenario with `init` can not be used in a test module
 - The inner field of struct can not be debugged in a test module
+
+The feature branch `copy-test-only` is a proposal to solve this.
 
 ### Description & Explain
 `demo1` and `demo2` are the same, and the testcases are the same,
