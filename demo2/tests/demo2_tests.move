@@ -1,6 +1,5 @@
 #[test_only]
-module demo2::demo2_tests;
-use demo2::demo2::{init, Cap};
+module demo2::demo2;
 
 
 #[test]

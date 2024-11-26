@@ -25,3 +25,5 @@ fun init(ctx: &mut TxContext) {
     transfer::transfer(cap, tx_context::sender(ctx));
 }
 
+// Automatically move the all codes from a #[test-only] module to the bottom of a module with the same module name when sui move test
+// ex: the line 3 to 28 of /demo2/tests/demo2_tests.move will be cut and paste into here
