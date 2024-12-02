@@ -19,7 +19,7 @@
     };
 
     sui-flake = {
-      url = "github:yanganto/sui/flake-2024-10-24";
+      url = "github:yanganto/sui/flake-2024-11-21";
       inputs = {
         nixpkgs.follows = "nixpkgs";
         flake-utils.follows = "flake-utils";

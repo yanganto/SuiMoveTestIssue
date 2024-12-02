@@ -94,16 +94,16 @@
         ]
       },
       "locked": {
-        "lastModified": 1731396206,
-        "narHash": "sha256-lvvvRMP+zH733GfZIxDw8tcRmt5HeKw94u7mYkXrXiA=",
+        "lastModified": 1733144854,
+        "narHash": "sha256-3WO9HToKmrhC6Ua9kYs1tmYu3aJTlxoMps/1DdVNCVE=",
         "owner": "yanganto",
         "repo": "sui",
-        "rev": "32e1cec46b2957c28c61d1ed933ac1fafb87348f",
+        "rev": "2f367fbe807a0f31ef3f9b10d3cc5b1e92cca78a",
         "type": "github"
       },
       "original": {
         "owner": "yanganto",
-        "ref": "flake-2024-10-24",
+        "ref": "flake-2024-11-21",
         "repo": "sui",
         "type": "github"
       }
