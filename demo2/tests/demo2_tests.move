@@ -19,7 +19,6 @@ fun in_test_package() {
     {
         let cap = scenario.take_from_sender<Cap>();
         debug::print(&cap);
-        debug::print(&cap.id);
         scenario.return_to_sender(cap);
     };
 
